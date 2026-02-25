@@ -2,7 +2,7 @@
 #EXT-X-APP APTV
 #EXT-X-APTV-TYPE local
 
-# === 央视频道 (已校对) ===
+# === 央视频道 ===
 #EXTINF:-1 group-title="央视频道",CCTV1
 http://192.168.50.1:1991/rtp/239.1.0.105:1025
 #EXTINF:-1 group-title="央视频道",CCTV2
@@ -37,8 +37,6 @@ http://192.168.50.1:1991/rtp/239.1.0.129:1025
 http://192.168.50.1:1991/rtp/239.1.0.204:1025
 #EXTINF:-1 group-title="央视频道",CCTV16
 http://192.168.50.1:1991/rtp/239.1.0.175:1025
-#EXTINF:-1 group-title="央视频道",CCTV17
-http://192.168.50.1:1991/rtp/239.1.0.208:1025
 #EXTINF:-1 group-title="央视频道",CCTV高尔夫·网球
 http://192.168.50.1:1991/rtp/239.1.1.54:1025
 #EXTINF:-1 group-title="央视频道",CCTV电视指南
@@ -50,9 +48,7 @@ http://192.168.50.1:1991/rtp/239.1.1.56:1025
 #EXTINF:-1 group-title="央视频道",CCTV卫生健康
 http://192.168.50.1:1991/rtp/239.1.1.164:1025
 
-# === 卫视频道 (仅省级高清) ===
-#EXTINF:-1 group-title="卫视频道",湖南卫视
-http://192.168.50.1:1991/rtp/239.1.1.174:1025
+# === 卫视频道 ===
 #EXTINF:-1 group-title="卫视频道",浙江卫视
 http://192.168.50.1:1991/rtp/239.1.1.178:1025
 #EXTINF:-1 group-title="卫视频道",江苏卫视
@@ -80,22 +76,24 @@ http://192.168.50.1:1991/rtp/239.1.0.186:1025
 #EXTINF:-1 group-title="卫视频道",河南卫视
 http://192.168.50.1:1991/rtp/239.1.0.136:1025
 
-# === 湖南核心 (芒果系) ===
-#EXTINF:-1 group-title="芒果核心",湖南经视
+# === 本地频道 ===
+#EXTINF:-1 group-title="本地频道",湖南卫视
+http://192.168.50.1:1991/rtp/239.1.1.174:1025
+#EXTINF:-1 group-title="本地频道",湖南经视
 http://192.168.50.1:1991/rtp/239.1.0.181:1025
-#EXTINF:-1 group-title="芒果核心",湖南都市
+#EXTINF:-1 group-title="本地频道",湖南都市
 http://192.168.50.1:1991/rtp/239.1.0.110:1025
-#EXTINF:-1 group-title="芒果核心",湖南电影
+#EXTINF:-1 group-title="本地频道",湖南电影
 http://192.168.50.1:1991/rtp/239.1.0.107:1025
-#EXTINF:-1 group-title="芒果核心",湖南电视剧
+#EXTINF:-1 group-title="本地频道",湖南电视剧
 http://192.168.50.1:1991/rtp/239.1.0.106:1025
-#EXTINF:-1 group-title="芒果核心",金鹰卡通
+#EXTINF:-1 group-title="本地频道",金鹰卡通
 http://192.168.50.1:1991/rtp/239.1.0.108:1025
-#EXTINF:-1 group-title="芒果核心",金鹰纪实
+#EXTINF:-1 group-title="本地频道",金鹰纪实
 http://192.168.50.1:1991/rtp/239.1.0.190:1025
-#EXTINF:-1 group-title="芒果核心",湖南教育
+#EXTINF:-1 group-title="本地频道",湖南教育
 http://192.168.50.1:1991/rtp/239.1.0.201:1025
-#EXTINF:-1 group-title="芒果核心",快乐垂钓
+#EXTINF:-1 group-title="本地频道",快乐垂钓
 http://192.168.50.1:1991/rtp/239.1.0.174:1025
-#EXTINF:-1 group-title="芒果核心",茶频道
+#EXTINF:-1 group-title="本地频道",茶频道
 http://192.168.50.1:1991/rtp/239.1.0.202:1025
