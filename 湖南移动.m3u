@@ -2,7 +2,7 @@
 #EXT-X-APP APTV
 #EXT-X-APTV-TYPE local
 
-# === 央视频道 ===
+# === 央视频道 (已校对) ===
 #EXTINF:-1 group-title="央视频道",CCTV1
 http://192.168.50.1:1991/rtp/239.1.0.105:1025
 #EXTINF:-1 group-title="央视频道",CCTV2
@@ -29,7 +29,7 @@ http://192.168.50.1:1991/rtp/239.1.0.127:1025
 http://192.168.50.1:1991/rtp/239.1.0.203:1025
 #EXTINF:-1 group-title="央视频道",CCTV12
 http://192.168.50.1:1991/rtp/239.1.0.128:1025
-[span_3](start_span)#EXTINF:-1 group-title="央视频道",CCTV13[span_3](end_span)
+#EXTINF:-1 group-title="央视频道",CCTV13
 http://192.168.50.1:1991/rtp/239.1.0.144:1025
 #EXTINF:-1 group-title="央视频道",CCTV14
 http://192.168.50.1:1991/rtp/239.1.0.129:1025
@@ -39,22 +39,18 @@ http://192.168.50.1:1991/rtp/239.1.0.204:1025
 http://192.168.50.1:1991/rtp/239.1.0.175:1025
 #EXTINF:-1 group-title="央视频道",CCTV17
 http://192.168.50.1:1991/rtp/239.1.0.208:1025
-[span_4](start_span)#EXTINF:-1 group-title="央视频道",CCTV高尔夫·网球[span_4](end_span)
+#EXTINF:-1 group-title="央视频道",CCTV高尔夫·网球
 http://192.168.50.1:1991/rtp/239.1.1.54:1025
-[span_5](start_span)#EXTINF:-1 group-title="央视频道",CCTV电视指南[span_5](end_span)
+#EXTINF:-1 group-title="央视频道",CCTV电视指南
 http://192.168.50.1:1991/rtp/239.1.1.52:1025
-[span_6](start_span)#EXTINF:-1 group-title="央视频道",CCTV风云足球[span_6](end_span)
+#EXTINF:-1 group-title="央视频道",CCTV风云足球
 http://192.168.50.1:1991/rtp/239.1.1.53:1025
-#EXTINF:-1 group-title="央视频道",CCTV风云音乐
-http://192.168.50.1:1991/rtp/239.1.1.60:1025
-[span_7](start_span)#EXTINF:-1 group-title="央视频道",CCTV兵器科技[span_7](end_span)
-http://192.168.50.1:1991/rtp/239.1.1.51:1025
-[span_8](start_span)#EXTINF:-1 group-title="央视频道",CCTV世界地理[span_8](end_span)
+#EXTINF:-1 group-title="央视频道",CCTV世界地理
 http://192.168.50.1:1991/rtp/239.1.1.56:1025
-#EXTINF:-1 group-title="央视频道",CCTV怀旧剧场
-http://192.168.50.1:1991/rtp/239.1.1.57:1025
+#EXTINF:-1 group-title="央视频道",CCTV卫生健康
+http://192.168.50.1:1991/rtp/239.1.1.164:1025
 
-# === 卫视频道 ===
+# === 卫视频道 (仅省级高清) ===
 #EXTINF:-1 group-title="卫视频道",湖南卫视
 http://192.168.50.1:1991/rtp/239.1.1.174:1025
 #EXTINF:-1 group-title="卫视频道",浙江卫视
@@ -73,20 +69,18 @@ http://192.168.50.1:1991/rtp/239.1.1.167:1025
 http://192.168.50.1:1991/rtp/239.1.1.172:1025
 #EXTINF:-1 group-title="卫视频道",四川卫视
 http://192.168.50.1:1991/rtp/239.1.1.179:1025
-[span_10](start_span)#EXTINF:-1 group-title="卫视频道",青海卫视[span_10](end_span)
+#EXTINF:-1 group-title="卫视频道",青海卫视
 http://192.168.50.1:1991/rtp/239.1.1.50:1025
-[span_11](start_span)#EXTINF:-1 group-title="卫视频道",甘肃卫视[span_11](end_span)
+#EXTINF:-1 group-title="卫视频道",甘肃卫视
 http://192.168.50.1:1991/rtp/239.1.0.145:1025
 #EXTINF:-1 group-title="卫视频道",湖北卫视
 http://192.168.50.1:1991/rtp/239.1.0.135:1025
 #EXTINF:-1 group-title="卫视频道",安徽卫视
 http://192.168.50.1:1991/rtp/239.1.0.186:1025
-#EXTINF:-1 group-title="卫视频道",重庆卫视
-http://192.168.50.1:1991/rtp/239.1.0.43:1025
 #EXTINF:-1 group-title="卫视频道",河南卫视
 http://192.168.50.1:1991/rtp/239.1.0.136:1025
 
-# === 湖南芒果核心 ===
+# === 湖南核心 (芒果系) ===
 #EXTINF:-1 group-title="芒果核心",湖南经视
 http://192.168.50.1:1991/rtp/239.1.0.181:1025
 #EXTINF:-1 group-title="芒果核心",湖南都市
@@ -95,16 +89,13 @@ http://192.168.50.1:1991/rtp/239.1.0.110:1025
 http://192.168.50.1:1991/rtp/239.1.0.107:1025
 #EXTINF:-1 group-title="芒果核心",湖南电视剧
 http://192.168.50.1:1991/rtp/239.1.0.106:1025
-#EXTINF:-1 group-title="芒果核心",金鹰纪实
-http://192.168.50.1:1991/rtp/239.1.0.190:1025
 #EXTINF:-1 group-title="芒果核心",金鹰卡通
 http://192.168.50.1:1991/rtp/239.1.0.108:1025
+#EXTINF:-1 group-title="芒果核心",金鹰纪实
+http://192.168.50.1:1991/rtp/239.1.0.190:1025
 #EXTINF:-1 group-title="芒果核心",湖南教育
 http://192.168.50.1:1991/rtp/239.1.0.201:1025
 #EXTINF:-1 group-title="芒果核心",快乐垂钓
 http://192.168.50.1:1991/rtp/239.1.0.174:1025
 #EXTINF:-1 group-title="芒果核心",茶频道
 http://192.168.50.1:1991/rtp/239.1.0.202:1025
-
-
-
